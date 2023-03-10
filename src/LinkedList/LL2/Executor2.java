@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.LL2;
 
 public class Executor2 {
 

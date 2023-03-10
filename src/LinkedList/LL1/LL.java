@@ -1,4 +1,4 @@
-package LinkedList;
+package LinkedList.LL1;
 
 import java.sql.SQLOutput;
 

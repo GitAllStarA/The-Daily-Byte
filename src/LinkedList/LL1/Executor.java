@@ -1,4 +1,6 @@
-package LinkedList;
+package LinkedList.LL1;
+
+import LinkedList.LL1.LL;
 
 public class Executor {
     public static void main(String[] args) {

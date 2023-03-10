@@ -14,7 +14,7 @@ See Solution
 * */
 
 
-package LinkedList;
+package LinkedList.RemoveNthLastNode;
 
 public class RemoveNthLastNodes {
 
