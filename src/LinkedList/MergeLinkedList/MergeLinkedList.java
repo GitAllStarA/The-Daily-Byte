@@ -26,7 +26,7 @@ public class MergeLinkedList {
 
         LL8 ans = new LL8();
 
-        ans.list1(list2.head);
+        ans.list1(list1.head, list2.head);
 
         //ans.Merge(list1.head,list2.head);
        // ans.mergeKN(list1.head, list2.head );

@@ -1,14 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers/AddTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers/LL10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListEvenOdd/LL11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListEvenOdd/LinkedListOddFirstEvenLast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListSum/LL9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListSum/ListSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/CompareKeyStrokes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/ImplementQueueUsingStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/ImplementStackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/MovingAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/NumberOfRepeatingCalls3000ms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/RemoveAdjacentDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/ValidCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/LL8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/LL8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/MergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/MergeLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Lszp1REzkPA28cxyQHWp7MskUu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +48,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="Application.ImplementStackUsingQueue">
+    <configuration name="ImplementQueueUsingStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQueues.ImplementQueueUsingStacks" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksNQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplementStackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQueues.ImplementStackUsingQueue" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksNQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQueues.MovingAverage" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksNQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQueues.NextGreaterElement" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksNQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfRepeatingCalls3000ms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQueues.NumberOfRepeatingCalls3000ms" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksNQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ImplementStackUsingQueue" />
+        <item itemvalue="Application.ImplementQueueUsingStacks" />
+        <item itemvalue="Application.MovingAverage" />
+        <item itemvalue="Application.NumberOfRepeatingCalls3000ms" />
+        <item itemvalue="Application.NextGreaterElement" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +141,254 @@
       <updated>1676674756906</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/LongestPrefix.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome2.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome2.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/ValidPalindrome2.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/Subsequence.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/Subsequence.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/Test.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CompressChars.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CompressChars.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CompressChars.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CompressChars.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/NoRepetitions.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/NoRepetitions.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/SpotTheDifference.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/SpotTheDifference.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/SpotTheDifference.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/FirstUniqueChar.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/FirstUniqueChar.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/FirstUniqueChar.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/UncommonWords.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/KeyboardRow.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveNthLastNode/RemoveNthLastNodes.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveValue/LL3.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveValue/LL3.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/RemoveValue/Solution.java</url>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/MergeLinkedList/LL8.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/MergeLinkedList/MergeLinkedList.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/AddTwoNumbers/LL10.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/AddTwoNumbers/AddTwoNumbers.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedListEvenOdd/LL11.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedListEvenOdd/LL11.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LinkedList/LinkedListEvenOdd/LL11.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksNQueues/ValidCharacters.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksNQueues/NextGreaterElement.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksNQueues/NextGreaterElement.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StacksNQueues/ImplementQueueUsingStacks.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
+          <line>1</line>
+          <properties class="CorrectCapitalization">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StacksNQueues/ImplementQueueUsingStacks.java</url>
+          <line>80</line>
+          <properties class="StacksNQueues.ImplementQueueUsingStacks" method="pop">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TheDailyByte$MergeLinkedList.ic" NAME="MergeLinkedList Coverage Results" MODIFIED="1678410864510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LinkedList.MergeLinkedList.*</FILTER>
+    </SUITE>
   </component>
 </project>

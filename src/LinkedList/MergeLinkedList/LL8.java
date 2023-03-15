@@ -87,17 +87,26 @@ public class LL8 {
 
     //adding list to another list
 
-    public void list1(ListNode list1){
+    public void list1(ListNode list1,ListNode list2){
         ListNode head = new ListNode(0);
         ListNode temp = head;
-
-        /*while (list1!=null){
+/*
+        while (list1!=null){
             temp.next = list1;
             list1 = list1.next;
             temp = temp.next;
+        }
+        while (list2!=null){
+            temp.next = list2;
+            list2 = list2.next;
+            temp = temp.next;
         }*/
 
+
         temp.next = list1;
+        temp = temp.next;
+        temp.next = list2;
+
 
         while (head!=null){
             System.out.print(head.val+"->");
