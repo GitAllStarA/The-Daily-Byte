@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/AddTwoNumbers/LL10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListEvenOdd/LL11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/LinkedListEvenOdd/LinkedListOddFirstEvenLast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListSum/LL9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LinkedList/ListSum/ListSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/CompareKeyStrokes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/ImplementQueueUsingStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/ImplementStackUsingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/MovingAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/NumberOfRepeatingCalls3000ms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/RemoveAdjacentDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/ValidCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="commit stacks and ques">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/LL8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/LL8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/MergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList/MergeLinkedList/MergeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StacksNQueues/ImplementStackUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacksNQueues/ImplementStackUsingQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +124,14 @@
       <option name="presentableId" value="Default" />
       <updated>1676674756906</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit stacks and ques">
+      <created>1678915208870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678915208870</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +144,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit stacks and ques" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit stacks and ques" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

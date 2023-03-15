@@ -14,12 +14,13 @@ See Solution
 
 package StacksNQueues;
 
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class ImplementStackUsingQueue {
 
-    private Queue<Integer> queue;
+    private Deque<Integer> queue;
 
     ImplementStackUsingQueue() {
         queue = new LinkedList<>();
@@ -34,18 +35,15 @@ public class ImplementStackUsingQueue {
     }
 
     int pop() {
-        int x = 0;
-        for (int i = 0; i < queue.size(); i++) {
-            x =
-        }
+       return queue.pollLast();
     }
 
     int peek() {
-        return 0;
+        return queue.peekLast();
     }
 
     boolean empty() {
-        return false;
+        return queue.isEmpty() ? true : false;
     }
 
     public static void main(String[] args) {
@@ -57,6 +55,10 @@ public class ImplementStackUsingQueue {
         isq.push(4);
         isq.push(5);
         isq.display();
+        System.out.println("pop "+isq.pop());
+        isq.display();
+        System.out.println("peek "+isq.peek());
+        System.out.println("is empty : "+isq.empty());
     }
 
 }
