@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="commit stacks and ques">
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="commit stacks and queues">
+      <change afterPath="$PROJECT_DIR$/src/StacksNQueues/Dominoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/BinarySearchTreeToLinkedListSorted/BinarySearchTreeToLinkedListSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/FindValue/FindValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StacksNQueues/ImplementStackUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StacksNQueues/ImplementStackUsingQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +43,39 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ImplementStackUsingQueue">
-    <configuration name="ImplementQueueUsingStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksNQueues.ImplementQueueUsingStacks" />
+  <component name="RunManager" selected="Application.FindValue">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.BinarySearchTree" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.FindValue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dominoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQueues.Dominoes" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="StacksNQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.FindValue.FindValue" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Trees.FindValue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,38 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovingAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksNQueues.MovingAverage" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Solution" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StacksNQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksNQueues.NextGreaterElement" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StacksNQueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberOfRepeatingCalls3000ms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StacksNQueues.NumberOfRepeatingCalls3000ms" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StacksNQueues.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindValue" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.Dominoes" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.ImplementStackUsingQueue" />
-        <item itemvalue="Application.ImplementQueueUsingStacks" />
-        <item itemvalue="Application.MovingAverage" />
-        <item itemvalue="Application.NumberOfRepeatingCalls3000ms" />
-        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678915208870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit stacks and queues">
+      <created>1678917107686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678917107686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,7 +158,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit stacks and ques" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit stacks and ques" />
+    <MESSAGE value="commit stacks and queues" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit stacks and queues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -379,12 +391,60 @@
           </properties>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StacksNQueues/Dominoes.java</url>
+          <line>72</line>
+          <properties class="StacksNQueues.Dominoes" method="j8">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Trees/BinarySearchTree.java</url>
+          <line>39</line>
+          <properties class="Trees.BinarySearchTree" method="inOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Trees/BinarySearchTree.java</url>
+          <line>47</line>
+          <properties class="Trees.BinarySearchTree" method="preOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Trees/BinarySearchTree.java</url>
+          <line>55</line>
+          <properties class="Trees.BinarySearchTree" method="postOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Trees/FindValue/FindValue.java</url>
+          <line>109</line>
+          <properties class="Trees.FindValue.FindValue" method="insertToTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TheDailyByte$MergeLinkedList.ic" NAME="MergeLinkedList Coverage Results" MODIFIED="1678410864510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LinkedList.MergeLinkedList.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TheDailyByte$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1678945339817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
     </SUITE>
   </component>
 </project>
