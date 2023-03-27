@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/Trees/FindMode/FindMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/IdenticalTrees/IdenticalTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/KthSmallest/KthSmallestElementInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/LowerCommonAncestor/LowerCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/MinimumDifference/MinimumDifference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/N_aryTree/CallingNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/PathSumIIIBST/PathSumIIIBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/SortedArrayToBST/SortedArrayToBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/SumWithinBounds/SumWithinBounds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/TwoSumBST/TwoSumBST.java" afterDir="false" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="N-ary  Tree">
+      <change afterPath="$PROJECT_DIR$/src/BoringTree_UniValuedTree/BoringTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SameValueTreeNode/SamValueTreeNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeCousins/TreeCousins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Trees/Levels/GatherLevels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/BinarySearchTreeToLinkedListSorted/BinarySearchTreeToLinkedListSorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BinarySearchTreeToLinkedListSorted/BinarySearchTreeToLinkedListSorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/N_aryTree/CallingNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/N_aryTree/CallingNodes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CallingNodes">
+  <component name="RunManager" selected="Application.TreeCousins">
+    <configuration name="BoringTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BoringTree_UniValuedTree.BoringTree" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BoringTree_UniValuedTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CallingNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Trees.N_aryTree.CallingNodes" />
       <module name="TheDailyByte" />
@@ -63,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallestElementInBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.KthSmallest.KthSmallestElementInBST" />
+    <configuration name="GatherLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Trees.Levels.GatherLevels" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.KthSmallest.*" />
+          <option name="PATTERN" value="Trees.Levels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSumIIIBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.PathSumIIIBST.PathSumIIIBST" />
+    <configuration name="SamValueTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SameValueTreeNode.SamValueTreeNodes" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.PathSumIIIBST.*" />
+          <option name="PATTERN" value="SameValueTreeNode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,25 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedArrayToBinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.SortedArrayToBST.SortedArrayToBinarySearchTree" />
+    <configuration name="TreeCousins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeCousins.TreeCousins" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.SortedArrayToBST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSumBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.TwoSumBST.TwoSumBST" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.TwoSumBST.*" />
+          <option name="PATTERN" value="TreeCousins.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeCousins" />
+        <item itemvalue="Application.BoringTree" />
+        <item itemvalue="Application.SamValueTreeNodes" />
+        <item itemvalue="Application.GatherLevels" />
         <item itemvalue="Application.CallingNodes" />
-        <item itemvalue="Application.TwoSumBST" />
-        <item itemvalue="Application.KthSmallestElementInBST" />
-        <item itemvalue="Application.PathSumIIIBST" />
-        <item itemvalue="Application.SortedArrayToBinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679431745353</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="N-ary  Tree">
+      <created>1679732422119</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679732422119</updated>
+    </task>
+    <task id="LOCAL-00005" summary="N-ary  Tree">
+      <created>1679732431057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679732431057</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,7 +181,8 @@
     <MESSAGE value="commit stacks and ques" />
     <MESSAGE value="commit stacks and queues" />
     <MESSAGE value="Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree" />
+    <MESSAGE value="N-ary  Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="N-ary  Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -500,6 +509,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/BoringTree_UniValuedTree/BoringTree.java</url>
+          <line>37</line>
+          <properties class="BoringTree_UniValuedTree.BoringTree" method="isUnivalTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

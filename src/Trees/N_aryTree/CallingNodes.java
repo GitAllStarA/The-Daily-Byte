@@ -1,5 +1,6 @@
 package Trees.N_aryTree;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CallingNodes {
@@ -24,44 +25,31 @@ public class CallingNodes {
 
         postOrderN_AryTree(root);*/
 
-        Node root = new Node(1);
-        Node child1 = new Node(3);
-        Node child2 = new Node(2);
-        Node child3 = new Node(4);
-        Node child4 = new Node(5);
-        Node child5 = new Node(6);
+        Node<Integer> root = new Node(1);
+        Node<Integer> child1 = new Node(3);
+        Node<Integer> child2 = new Node(2);
+        Node<Integer> child3 = new Node(4);
+        Node<Integer> child4 = new Node(5);
+        Node<Integer> child5 = new Node(6);
 
-
-        // root.children.add(child1);
-        // root.children.add(child2);
-        // root.children.add(child3);
-        // child1.children.add(child4);
-        // child1.children.add(child5);
-
-
+         root.children.add(child1);
+         root.children.add(child2);
+         root.children.add(child3);
+         child1.children.add(child4);
+         child1.children.add(child5);
         // work on it
-
-
-        System.out.println(printX(100));
+        traverse(root);
 
     }
 
-    public static int printX(int x) {
-
-        if (x == 0)
-            return 0;
-
-        System.out.println(x);
-        printX(x - 1);
-
-        return 0;
-    }
-
-
-    public void traverse(Node root) {
-        String s = "";
+    public static void traverse(Node<Integer> root) {
+        String s = root.val+" = ";
         for (int i = 0; i < root.children.size(); i++) {
-            s = s + root.children.get(i) + " ";
+            s = s + root.children.get(i).val + ", ";
+        }
+        System.out.println(s);
+        for (int i = 0; i < root.children.size(); i++) {
+            traverse(root.children.get(i));
         }
     }
 
@@ -99,18 +87,18 @@ class TreeNode {
 }
 
 
-class Node {
-    public int val;
-    public List<Node> children;
+class Node<T>{
+    public T val;
+    public List<Node<T>> children;
 
-    public Node() {
-    }
 
-    public Node(int _val) {
+
+    public Node(T _val) {
         val = _val;
+        children = new ArrayList<>();
     }
 
-    public Node(int _val, List<Node> _children) {
+    public Node(T _val, List<Node<T>> _children) {
         val = _val;
         children = _children;
     }
