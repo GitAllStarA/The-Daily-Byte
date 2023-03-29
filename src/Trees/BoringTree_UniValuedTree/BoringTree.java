@@ -21,7 +21,7 @@ Ex: Given the following root…
 * */
 
 
-package BoringTree_UniValuedTree;
+package Trees.BoringTree_UniValuedTree;
 
 import java.util.HashSet;
 

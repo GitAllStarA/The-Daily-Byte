@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="N-ary  Tree">
-      <change afterPath="$PROJECT_DIR$/src/BoringTree_UniValuedTree/BoringTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SameValueTreeNode/SamValueTreeNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TreeCousins/TreeCousins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Trees/Levels/GatherLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/N_aryTree/CallingNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/N_aryTree/CallingNodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoringTree_UniValuedTree/BoringTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BoringTree_UniValuedTree/BoringTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeCousins/TreeCousins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TreeCousins/TreeCousins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/Levels/GatherLevels.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -43,13 +45,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TreeCousins">
+  <component name="RunManager" selected="Application.MaxValueInEachLevel">
     <configuration name="BoringTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BoringTree_UniValuedTree.BoringTree" />
+      <option name="MAIN_CLASS_NAME" value="Trees.BoringTree_UniValuedTree.BoringTree" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BoringTree_UniValuedTree.*" />
+          <option name="PATTERN" value="Trees.BoringTree_UniValuedTree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CallingNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.N_aryTree.CallingNodes" />
+    <configuration name="Graph_BFS_Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.Graph_BFS_Impl" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.N_aryTree.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GatherLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.Levels.GatherLevels" />
+    <configuration name="Graphs.BreathFirstSearch.GatherLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.GatherLevels" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.Levels.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SamValueTreeNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SameValueTreeNode.SamValueTreeNodes" />
+    <configuration name="MaxValueInEachLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.MaxValueInEachLevel" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SameValueTreeNode.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="TreeCousins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TreeCousins.TreeCousins" />
+      <option name="MAIN_CLASS_NAME" value="Trees.TreeCousins.TreeCousins" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TreeCousins.*" />
+          <option name="PATTERN" value="Trees.TreeCousins.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxValueInEachLevel" />
+        <item itemvalue="Application.Graphs.BreathFirstSearch.GatherLevels" />
+        <item itemvalue="Application.Graph_BFS_Impl" />
         <item itemvalue="Application.TreeCousins" />
         <item itemvalue="Application.BoringTree" />
-        <item itemvalue="Application.SamValueTreeNodes" />
-        <item itemvalue="Application.GatherLevels" />
-        <item itemvalue="Application.CallingNodes" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679732431057</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="N-ary  Tree">
+      <created>1679960844303</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679960844303</updated>
+    </task>
+    <task id="LOCAL-00007" summary="N-ary  Tree">
+      <created>1679960979236</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679960979236</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,6 +427,21 @@
           <line>36</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
           <line>1</line>
@@ -511,13 +542,31 @@
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/BoringTree_UniValuedTree/BoringTree.java</url>
+          <url>file://$PROJECT_DIR$/src/Trees/BoringTree_UniValuedTree/BoringTree.java</url>
           <line>37</line>
-          <properties class="BoringTree_UniValuedTree.BoringTree" method="isUnivalTree">
+          <properties class="Trees.BoringTree_UniValuedTree.BoringTree" method="isUnivalTree">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java</url>
+          <line>24</line>
+          <properties class="Graphs.BreathFirstSearch.Graph_BFS_Impl" method="breathFirstSearch">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java</url>
+          <line>55</line>
+          <properties class="Graphs.BreathFirstSearch.GatherLevels" method="gatherLevels">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="169" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

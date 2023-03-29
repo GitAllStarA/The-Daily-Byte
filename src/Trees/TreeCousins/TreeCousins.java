@@ -22,7 +22,7 @@ Ex: Given the following root, x, and y…
 * */
 
 
-package TreeCousins;
+package Trees.TreeCousins;
 
 import java.util.ArrayList;
 
