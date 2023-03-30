@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="N-ary  Tree">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/Graphs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/VisibleValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BoringTree_UniValuedTree/BoringTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/BoringTree_UniValuedTree/BoringTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeCousins/TreeCousins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TreeCousins/TreeCousins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/Levels/GatherLevels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaxValueInEachLevel">
-    <configuration name="BoringTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.BoringTree_UniValuedTree.BoringTree" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Trees.BoringTree_UniValuedTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.VisibleValues">
     <configuration name="Graph_BFS_Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.Graph_BFS_Impl" />
       <module name="TheDailyByte" />
@@ -72,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graphs.BreathFirstSearch.GatherLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.GatherLevels" />
+    <configuration name="Graphs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.SideView.Graphs" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.SideView.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxValueInEachLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.MaxValueInEachLevel" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.GraphsImplTree_BroCode.Main" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.GraphsImplTree_BroCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeCousins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Trees.TreeCousins.TreeCousins" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+      <module name="TheDailyByte" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisibleValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.SideView.VisibleValues" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Trees.TreeCousins.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.SideView.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxValueInEachLevel" />
-        <item itemvalue="Application.Graphs.BreathFirstSearch.GatherLevels" />
+        <item itemvalue="Application.VisibleValues" />
         <item itemvalue="Application.Graph_BFS_Impl" />
-        <item itemvalue="Application.TreeCousins" />
-        <item itemvalue="Application.BoringTree" />
+        <item itemvalue="Application.Graphs" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -442,6 +437,16 @@
           <line>72</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/Graphs.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/Graphs.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
           <line>1</line>
@@ -568,15 +573,24 @@
           </properties>
           <option name="timeStamp" value="169" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/Graphs.java</url>
+          <line>63</line>
+          <properties class="Graphs.BreathFirstSearch.SideView.Graphs" method="bfs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TheDailyByte$MergeLinkedList.ic" NAME="MergeLinkedList Coverage Results" MODIFIED="1678410864510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>LinkedList.MergeLinkedList.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/TheDailyByte$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1678945339817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TheDailyByte$MergeLinkedList.ic" NAME="MergeLinkedList Coverage Results" MODIFIED="1678410864510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>LinkedList.MergeLinkedList.*</FILTER>
     </SUITE>
   </component>
 </project>

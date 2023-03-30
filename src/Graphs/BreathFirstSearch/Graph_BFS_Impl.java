@@ -74,7 +74,7 @@ public class Graph_BFS_Impl {
         bfs.edgeCreate(6,3);
 
         bfs.breathFirstSearch(0,7);
-
+        System.out.println(Arrays.toString(bfs.adjList));
     }
 
 }
