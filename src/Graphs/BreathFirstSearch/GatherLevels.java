@@ -24,18 +24,25 @@ Ex: Given the following tree...
  /      \
 3        78
 return [[1], [9, 32], [3, 78]]
+Ex: Given the following tree…
+
+-->        7
+         /  \
+-->     4     3
+       / \   / \
+-->   1   4 8   9
+                 \
+-->               9
+return [[7], [4,3], [1,4,8,9], [9]]
 * */
 
 
 package Graphs.BreathFirstSearch;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 public class GatherLevels {
-    int vertices;
+    /*int vertices;
     static ArrayList<Integer> adjList[];
 
     static Scanner scanner;
@@ -51,9 +58,9 @@ public class GatherLevels {
     void edgesCreate(int vertex, int adjacentVertex) {
         ArrayList<Integer> addVertex = adjList[vertex];
         addVertex.add(adjacentVertex);
-    }
+    }*/
 
-    void gatherLevels(int sourceVertex, int noOfVertices) {
+    /*void gatherLevels(int sourceVertex, int noOfVertices) {
         boolean visited[] = new boolean[noOfVertices];
         Queue<Integer> queue = new LinkedList<>();
         queue.add(sourceVertex);
@@ -83,11 +90,41 @@ public class GatherLevels {
                     }
                 }
             }
-            if (lvl.size()>=1) {
+            if (lvl.size() >= 1) {
                 levels.add(lvl);
             }
         }
         System.out.println(levels);
+    }*/
+
+
+    public static ArrayList<ArrayList<Integer>> gatherLevels(TreeNodeForGatherLevels root) {
+        ArrayList<ArrayList<Integer>> arrayList = new ArrayList<>();
+        if (root == null) {
+            return arrayList;
+        }
+
+        Queue<TreeNodeForGatherLevels> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            ArrayList<Integer> arrayList2 = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                TreeNodeForGatherLevels currentNode = queue.poll();
+                arrayList2.add(currentNode.val);
+                if (currentNode.left != null) {
+                    queue.add(currentNode.left);
+
+                }
+                if (currentNode.right != null) {
+                    queue.add(currentNode.right);
+
+                }
+            }
+            arrayList.add(arrayList2);
+
+        }
+        return arrayList;
     }
 
     public static void main(String[] args) {
@@ -95,6 +132,7 @@ public class GatherLevels {
         int noOfVertices = scanner.nextInt();
 
         scanner.close();*/
+        /*
         GatherLevels gatherLevels = new GatherLevels(4);
 
         gatherLevels.edgesCreate(0, 1);
@@ -103,12 +141,52 @@ public class GatherLevels {
         gatherLevels.edgesCreate(1, 0);
 
         gatherLevels.edgesCreate(2, 0);
-        gatherLevels.edgesCreate(2,3);
+        gatherLevels.edgesCreate(2, 3);
 
-        gatherLevels.edgesCreate(3,2);
+        gatherLevels.edgesCreate(3, 2);
 
-        gatherLevels.gatherLevels(0, 4);
+        gatherLevels.gatherLevels(0, 4);*/
+
+
+        TreeNodeForGatherLevels root = new TreeNodeForGatherLevels(7);
+        root.left = new TreeNodeForGatherLevels(4);
+        root.right = new TreeNodeForGatherLevels(3);
+        root.left.left = new TreeNodeForGatherLevels(1);
+        root.left.right = new TreeNodeForGatherLevels(4);
+        root.right.left = new TreeNodeForGatherLevels(8);
+        root.right.right = new TreeNodeForGatherLevels(9);
+        root.right.right.right = new TreeNodeForGatherLevels(9);
+        System.out.println(gatherLevels(root));
+
     }
 
-
 }
+
+class TreeNodeForGatherLevels {
+    int val;
+    TreeNodeForGatherLevels left;
+    TreeNodeForGatherLevels right;
+
+    TreeNodeForGatherLevels(int val) {
+        this.val = val;
+    }
+
+    TreeNodeForGatherLevels(int val, TreeNodeForGatherLevels left, TreeNodeForGatherLevels right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
+/*
+*
+* -->      7
+         /  \
+-->     4     3
+       / \   / \
+-->   1   4 8   9
+                 \
+-->               9
+return [7, 4, 1, 9]
+*
+* */

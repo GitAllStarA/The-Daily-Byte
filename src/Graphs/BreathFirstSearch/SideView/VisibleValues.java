@@ -15,7 +15,7 @@ Ex: Given the following tree…
 
 -->        7
          /  \
--->     4     9
+-->     4     3
        / \   / \
 -->   1   4 8   9
                  \
@@ -26,6 +26,8 @@ return [7, 4, 1, 9]
 
 
 package Graphs.BreathFirstSearch.SideView;
+
+import com.sun.source.tree.Tree;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -38,7 +40,7 @@ public class VisibleValues {
 
     ArrayList<Integer> adjList[];
 
-    VisibleValues (int vertices){
+    VisibleValues(int vertices) {
 
         this.vertices = vertices;
         adjList = new ArrayList[vertices];
@@ -52,30 +54,36 @@ public class VisibleValues {
         v.add(dst);
     }
 
-    void bfs(TreeNode root) {
+    ArrayList<Integer> bfs(TreeNode root) {
         ArrayList<Integer> arrayList = new ArrayList<>();
-        if (root == null){
-            return;
+        if (root == null) {
+            return arrayList;
         }
 
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
-        arrayList.add(root.val);
-        while (!queue.isEmpty()) {
-            TreeNode currentNode = queue.remove();
 
-            while (currentNode!=null){
-                if (currentNode.left!=null){
-                    queue.add(currentNode.left);
-                    arrayList.add(currentNode.left.val);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i <size; i++) {
+                TreeNode node = queue.poll();
+                if (i == 0){
+                    arrayList.add(node.val);
                 }
-                if (currentNode.left==null&&currentNode.right!=null){
-                    queue.add(currentNode.right);
-                    arrayList.add(currentNode.right.val);
+                if (node.left != null) {
+                    //arrayList.add(node.left.val);
+                    queue.add(node.left);
+
+                }
+                if (node.right != null) {
+                   // arrayList.add(node.right.val);
+                    queue.add(node.right);
                 }
             }
         }
+        //System.out.println(queue);
         System.out.println(arrayList);
+        return arrayList;
     }
 
 
@@ -85,6 +93,8 @@ public class VisibleValues {
         root.left = new TreeNode(4);
         root.right = new TreeNode(9);
         root.left.left = new TreeNode(1);
+        root.left.left.left = new TreeNode(12);
+        root.left.left.right = new TreeNode(13);
         root.left.right = new TreeNode(4);
         root.right.left = new TreeNode(8);
         root.right.right = new TreeNode(9);
@@ -104,7 +114,7 @@ class TreeNode {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNode left, TreeNode right){
+    TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;

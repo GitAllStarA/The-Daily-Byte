@@ -27,15 +27,11 @@ return [1, 6, 7]
 
 package Graphs.BreathFirstSearch;
 
-import javax.crypto.spec.PSource;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class MaxValueInEachLevel {
 
-    int vertices;
+    /*int vertices;
 
     ArrayList<Integer> adjList[];
 
@@ -80,9 +76,77 @@ public class MaxValueInEachLevel {
             }
         }
         System.out.println("longest values "+maxValList);
+    }*/
+
+
+    static List<Integer> bfsMaxValAtEachLevelInTree(TreeNodeForGatherLevels root) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        if (root == null) {
+            return arrayList;
+        }
+
+        Queue<TreeNodeForGatherLevels> queue = new LinkedList<>();
+        queue.add(root);
+        //arrayList.add(root.val);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            int max = Integer.MIN_VALUE;
+            for (int i = 0; i < size; i++) {
+                TreeNodeForGatherLevels node = queue.poll();
+                if (max < node.val){
+                    max = node.val;
+                }
+                if (node.left != null) {
+                    queue.add(node.left);
+                }
+                if (node.right != null) {
+                    queue.add(node.right);
+                }
+            }
+            arrayList.add(max);
+        }
+        System.out.println(arrayList);
+        return arrayList;
     }
 
     public static void main(String[] args) {
+
+
+        TreeNodeForGatherLevels root = new TreeNodeForGatherLevels(7);
+        root.left = new TreeNodeForGatherLevels(4);
+        root.right = new TreeNodeForGatherLevels(3);
+        root.left.left = new TreeNodeForGatherLevels(1);
+        root.left.right = new TreeNodeForGatherLevels(4);
+        root.right.left = new TreeNodeForGatherLevels(8);
+        root.right.right = new TreeNodeForGatherLevels(9);
+        root.right.right.right = new TreeNodeForGatherLevels(9);
+
+        bfsMaxValAtEachLevelInTree(root);
+
+    }
+
+
+}
+
+class TreeNode {
+    int val;
+    TreeNodeForGatherLevels left;
+    TreeNodeForGatherLevels right;
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
+    TreeNode(int val, TreeNodeForGatherLevels left, TreeNodeForGatherLevels right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+
+
+
+
 /*
 *
 *         1
@@ -91,7 +155,7 @@ public class MaxValueInEachLevel {
        / \   \
       5   3   7
 * */
-        MaxValueInEachLevel maxValueInEachLevel = new MaxValueInEachLevel(8);
+        /*MaxValueInEachLevel maxValueInEachLevel = new MaxValueInEachLevel(8);
         maxValueInEachLevel.createEdge(1, 2);
         maxValueInEachLevel.createEdge(1, 3);
 
@@ -112,10 +176,4 @@ public class MaxValueInEachLevel {
         maxValueInEachLevel.createEdge(5, 4);
         maxValueInEachLevel.createEdge(4, 5);
 
-        maxValueInEachLevel.maxValueAtEachLevel(1, 8);
-
-
-    }
-
-
-}
+        maxValueInEachLevel.maxValueAtEachLevel(1, 8);*/

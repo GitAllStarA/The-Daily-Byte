@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="N-ary  Tree">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/Graphs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/VisibleValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Test/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/VisibleValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/VisibleValues.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +44,8 @@
   }
 }</component>
   <component name="RunManager" selected="Application.VisibleValues">
-    <configuration name="Graph_BFS_Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.Graph_BFS_Impl" />
+    <configuration name="GatherLevels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.GatherLevels" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
@@ -60,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Graphs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.SideView.Graphs" />
+    <configuration name="Graph_BFS_Impl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.Graph_BFS_Impl" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.SideView.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.GraphsImplTree_BroCode.Main" />
+    <configuration name="MaxValueInEachLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.MaxValueInEachLevel" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.GraphsImplTree_BroCode.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,9 +83,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.Test.TestClass" />
       <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,10 +112,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.VisibleValues" />
+        <item itemvalue="Application.GatherLevels" />
+        <item itemvalue="Application.MaxValueInEachLevel" />
+        <item itemvalue="Application.TestClass" />
         <item itemvalue="Application.Graph_BFS_Impl" />
-        <item itemvalue="Application.Graphs" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679960979236</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="N-ary  Tree">
+      <created>1680156523676</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680156523676</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,12 +439,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java</url>
-          <line>56</line>
+          <line>63</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java</url>
-          <line>72</line>
+          <line>68</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -446,6 +456,21 @@
           <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/Graphs.java</url>
           <line>64</line>
           <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/VisibleValues.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
@@ -566,8 +591,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java</url>
-          <line>55</line>
-          <properties class="Graphs.BreathFirstSearch.GatherLevels" method="gatherLevels">
+          <line>62</line>
+          <properties class="Graphs.BreathFirstSearch.GatherLevels">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -581,6 +606,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java</url>
+          <line>81</line>
+          <properties class="Graphs.BreathFirstSearch.MaxValueInEachLevel" method="bfsMaxValAtEachLevelInTree">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Test/TestClass.java</url>
+          <line>20</line>
+          <properties class="Graphs.BreathFirstSearch.Test.TestClass" method="bfs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
