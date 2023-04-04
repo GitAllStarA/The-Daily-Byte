@@ -25,7 +25,8 @@ return [1, 6, 7]
 * */
 
 
-package Graphs.BreathFirstSearch;
+package Graphs.BreathFirstSearch.MaxValAtEachLevel;
+
 
 import java.util.*;
 
@@ -128,16 +129,16 @@ public class MaxValueInEachLevel {
 
 }
 
-class TreeNode {
+class TreeNodeForGatherLevels {
     int val;
     TreeNodeForGatherLevels left;
     TreeNodeForGatherLevels right;
 
-    TreeNode(int val) {
+    TreeNodeForGatherLevels(int val) {
         this.val = val;
     }
 
-    TreeNode(int val, TreeNodeForGatherLevels left, TreeNodeForGatherLevels right) {
+    TreeNodeForGatherLevels(int val, TreeNodeForGatherLevels left, TreeNodeForGatherLevels right) {
         this.val = val;
         this.left = left;
         this.right = right;

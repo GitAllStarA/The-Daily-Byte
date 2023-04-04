@@ -37,7 +37,7 @@ return [[7], [4,3], [1,4,8,9], [9]]
 * */
 
 
-package Graphs.BreathFirstSearch;
+package Graphs.BreathFirstSearch.GatherLevels;
 
 import java.util.*;
 
@@ -98,19 +98,19 @@ public class GatherLevels {
     }*/
 
 
-    public static ArrayList<ArrayList<Integer>> gatherLevels(TreeNodeForGatherLevels root) {
+    public static ArrayList<ArrayList<Integer>> gatherLevels(TreeNode root) {
         ArrayList<ArrayList<Integer>> arrayList = new ArrayList<>();
         if (root == null) {
             return arrayList;
         }
 
-        Queue<TreeNodeForGatherLevels> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
             ArrayList<Integer> arrayList2 = new ArrayList<>();
             for (int i = 0; i < size; i++) {
-                TreeNodeForGatherLevels currentNode = queue.poll();
+                TreeNode currentNode = queue.poll();
                 arrayList2.add(currentNode.val);
                 if (currentNode.left != null) {
                     queue.add(currentNode.left);
@@ -148,30 +148,30 @@ public class GatherLevels {
         gatherLevels.gatherLevels(0, 4);*/
 
 
-        TreeNodeForGatherLevels root = new TreeNodeForGatherLevels(7);
-        root.left = new TreeNodeForGatherLevels(4);
-        root.right = new TreeNodeForGatherLevels(3);
-        root.left.left = new TreeNodeForGatherLevels(1);
-        root.left.right = new TreeNodeForGatherLevels(4);
-        root.right.left = new TreeNodeForGatherLevels(8);
-        root.right.right = new TreeNodeForGatherLevels(9);
-        root.right.right.right = new TreeNodeForGatherLevels(9);
+        TreeNode root = new TreeNode(7);
+        root.left = new TreeNode(4);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(1);
+        root.left.right = new TreeNode(4);
+        root.right.left = new TreeNode(8);
+        root.right.right = new TreeNode(9);
+        root.right.right.right = new TreeNode(9);
         System.out.println(gatherLevels(root));
 
     }
 
 }
 
-class TreeNodeForGatherLevels {
+class TreeNode {
     int val;
-    TreeNodeForGatherLevels left;
-    TreeNodeForGatherLevels right;
+    TreeNode left;
+    TreeNode right;
 
-    TreeNodeForGatherLevels(int val) {
+    TreeNode(int val) {
         this.val = val;
     }
 
-    TreeNodeForGatherLevels(int val, TreeNodeForGatherLevels left, TreeNodeForGatherLevels right) {
+    TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;
