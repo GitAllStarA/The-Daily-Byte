@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/AverageBFS/Averages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/BottomOfTheBarrel/BottomOfTheBarrel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/KillProcess/KillProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Bipartite/BipartiteGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherColumns/GatherColumns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Island_FarFromLand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Infection_or_RottenOranges/InfectionOrRottenOranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels/GatherLevels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValueInEachLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValAtEachLevel/MaxValueInEachLevel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +50,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.BottomOfTheBarrel">
-    <configuration name="Averages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.AverageBFS.Averages" />
+  <component name="RunManager" selected="Application.GatherColumns">
+    <configuration name="BipartiteGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.Bipartite.BipartiteGraph" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.AverageBFS.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.Bipartite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BottomOfTheBarrel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.BottomOfTheBarrel.BottomOfTheBarrel" />
+    <configuration name="GatherColumns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.GatherColumns.GatherColumns" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.BottomOfTheBarrel.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.GatherColumns.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KillProcess" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.KillProcess.KillProcess" />
+    <configuration name="Island_FarFromLand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.Island_FarFromLand" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.KillProcess.*" />
+          <option name="PATTERN" value="Graphs.BreathFirstSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NaryTreeGraphsBFSImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.N_aryTreeGraphsBFS.NaryTreeGraphsBFSImpl" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test2" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.N_aryTreeGraphsBFS.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZigZagTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.ZigZagTraversal.ZigZagTraversal" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Test3" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.ZigZagTraversal.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BottomOfTheBarrel" />
-        <item itemvalue="Application.Averages" />
-        <item itemvalue="Application.KillProcess" />
-        <item itemvalue="Application.NaryTreeGraphsBFSImpl" />
-        <item itemvalue="Application.ZigZagTraversal" />
+        <item itemvalue="Application.GatherColumns" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.BipartiteGraph" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Island_FarFromLand" />
       </list>
     </recent_temporary>
   </component>
@@ -493,6 +494,51 @@
           <line>58</line>
           <option name="timeStamp" value="194" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Infection_or_RottenOranges/InfectionOrRottenOranges.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Infection_or_RottenOranges/InfectionOrRottenOranges.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Island_FarFromLand.java</url>
+          <line>92</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Test2.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Test3.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Test3.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Test3.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/Test3.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherColumns/GatherColumns.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="208" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
           <line>1</line>
@@ -645,6 +691,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Bipartite/BipartiteGraph.java</url>
+          <line>89</line>
+          <properties class="Graphs.BreathFirstSearch.Bipartite.BipartiteGraph" method="isBipartite">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Island_FarFromLand.java</url>
+          <line>57</line>
+          <properties class="Graphs.BreathFirstSearch.Island_FarFromLand" method="furthestCellFromLand">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="202" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
