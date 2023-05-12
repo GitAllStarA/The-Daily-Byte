@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/CalculateDepth/CalculateDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/DFSImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/RootToLeafPathSum/RootToLeafPathSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/RootToLeafPaths/RootToLeafPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/LongestRepeatingSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/Island/TotalIsland.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheDailyByte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TheDailyByte.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/AverageBFS/Averages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/AverageBFS/Averages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Bipartite/BipartiteGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/Bipartite/BipartiteGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/BottomOfTheBarrel/BottomOfTheBarrel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/BottomOfTheBarrel/BottomOfTheBarrel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/BottomsUp/BottomsUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/BottomsUp/BottomsUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherColumns/GatherColumns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/GatherColumns/GatherColumns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GatherLevels/GatherLevels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/GatherLevels/GatherLevels.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Graph_BFS_Impl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/Graph_BFS_Impl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/GraphsImplTree_BroCode/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/GraphsImplTree_BroCode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/GraphsImplTree_BroCode/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/GraphsImplTree_BroCode/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Island_FarFromLand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/Island_FarFromLand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/KillProcess/KillProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/KillProcess/KillProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/MaxValAtEachLevel/MaxValueInEachLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/MaxValAtEachLevel/MaxValueInEachLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/N_aryTreeGraphsBFS/NaryTreeGraphsBFSImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/N_aryTreeGraphsBFS/NaryTreeGraphsBFSImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/RightView/RightViewOfBSTGraphImplBFD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/RightView/RightViewOfBSTGraphImplBFD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/Graphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/SideView/Graphs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/SideView/VisibleValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/SideView/VisibleValues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/Test/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/Test/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/BreathFirstSearch/ZigZagTraversal/ZigZagTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/ZigZagTraversal/ZigZagTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Infection_or_RottenOranges/InfectionOrRottenOranges.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/Infection_or_RottenOranges/InfectionOrRottenOranges.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,38 +34,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.RootToLeafPathSum">
+}]]></component>
+  <component name="RunManager" selected="Application.TotalIsland">
     <configuration name="CalculateDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Graphs.DepthFirstSearch.CalculateDepth.CalculateDepth" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Graphs.DepthFirstSearch.CalculateDepth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DFSImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graphs.BreathFirstSearch.DepthFirstSearch.DFSImpl" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Graphs.BreathFirstSearch.DepthFirstSearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TotalIsland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graphs.DepthFirstSearch.Island.TotalIsland" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graphs.DepthFirstSearch.Island.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="insertToTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JDBC.insertToTable" />
       <module name="TheDailyByte" />
@@ -137,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalIsland" />
         <item itemvalue="Application.RootToLeafPathSum" />
         <item itemvalue="Application.RootToLeafPaths" />
         <item itemvalue="Application.insertToTable" />
         <item itemvalue="Application.CalculateDepth" />
-        <item itemvalue="Application.DFSImpl" />
       </list>
     </recent_temporary>
   </component>
@@ -522,12 +499,12 @@
           <option name="timeStamp" value="194" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Infection_or_RottenOranges/InfectionOrRottenOranges.java</url>
+          <url>file://$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/Infection_or_RottenOranges/InfectionOrRottenOranges.java</url>
           <line>71</line>
           <option name="timeStamp" value="198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Infection_or_RottenOranges/InfectionOrRottenOranges.java</url>
+          <url>file://$PROJECT_DIR$/src/Graphs/BreadthFirstSearch/Infection_or_RottenOranges/InfectionOrRottenOranges.java</url>
           <line>120</line>
           <option name="timeStamp" value="199" />
         </line-breakpoint>
