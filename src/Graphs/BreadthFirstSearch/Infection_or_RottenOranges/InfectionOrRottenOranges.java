@@ -30,7 +30,7 @@ grid = [
 *
 *   https://www.youtube.com/watch?v=vsAeM9EGhFo&ab_channel=MichaelMuinos
 * */
-package Infection_or_RottenOranges;
+package Graphs.BreadthFirstSearch.Infection_or_RottenOranges;
 
 import java.util.LinkedList;
 import java.util.Queue;
