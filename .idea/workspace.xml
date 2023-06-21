@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Recursion">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/LinkedListMultipleOccurrences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/PatternsDownwordsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/RotatedBinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/UpwardsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringAndHashMaps/GroupAnagrams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trees/TwoSumBST/TwoSumBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TwoSumBST/TwoSumBST.java" afterDir="false" />
-    </list>
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Recursion - Triangles, Bubble and Selection Sort" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686515606559</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Recursion - Triangles, Bubble and Selection Sort">
+      <created>1687317919546</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687317919546</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,7 +239,8 @@
     <MESSAGE value="N-ary  Tree" />
     <MESSAGE value="graphs bfs" />
     <MESSAGE value="Recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion" />
+    <MESSAGE value="Recursion - Triangles, Bubble and Selection Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion - Triangles, Bubble and Selection Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
