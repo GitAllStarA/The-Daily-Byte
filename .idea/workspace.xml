@@ -4,27 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="graphs bfs">
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/NKnights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/NKnights2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/NQueens2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/Sudoku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/permutationOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/PondSize/PondSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/RabbitHole/RabbitHole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Arithmetics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/CallStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/LinearSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/NumberOfStepsReduceToZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Recursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SortedArrayOrNot.java" afterDir="false" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Recursion">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/LinkedListMultipleOccurrences.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/PatternsDownwordsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/RotatedBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/UpwardsTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringAndHashMaps/GroupAnagrams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/Island/TotalIsland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Graphs/DepthFirstSearch/Island/TotalIsland.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Recursion/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trees/TwoSumBST/TwoSumBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trees/TwoSumBST/TwoSumBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +51,38 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinearSearch">
-    <configuration name="Arithmetics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Arithmetics" />
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.BubbleSort" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringAndHashMaps.GroupAnagrams" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringAndHashMaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternsDownwordsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.PatternsDownwordsTriangle" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
@@ -77,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.LinearSearch" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.SelectionSort" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="SortingAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,34 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfStepsReduceToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.NumberOfStepsReduceToZero" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Palindrome" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortedArrayOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.SortedArrayOrNot" />
+    <configuration name="UpwardsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.UpwardsTriangle" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.SortedArrayOrNot" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.NumberOfStepsReduceToZero" />
-        <item itemvalue="Application.Arithmetics" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.GroupAnagrams" />
+        <item itemvalue="Application.UpwardsTriangle" />
+        <item itemvalue="Application.PatternsDownwordsTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +209,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683867228165</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Recursion">
+      <created>1686515597132</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686515597132</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Recursion">
+      <created>1686515606559</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686515606559</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,7 +243,8 @@
     <MESSAGE value="Binary Search Tree" />
     <MESSAGE value="N-ary  Tree" />
     <MESSAGE value="graphs bfs" />
-    <option name="LAST_COMMIT_MESSAGE" value="graphs bfs" />
+    <MESSAGE value="Recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -647,6 +653,16 @@
           <line>6</line>
           <option name="timeStamp" value="265" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/LinearSearch.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Recursion/UpwardsTriangle.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
           <line>1</line>
@@ -880,6 +896,51 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Trees/TwoSumBST/TwoSumBST.java</url>
+          <line>81</line>
+          <properties class="Trees.TwoSumBST.TwoSumBST" method="isBalancedLeft">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Recursion/UpwardsTriangle.java</url>
+          <line>23</line>
+          <properties class="Recursion.UpwardsTriangle" method="KKTriangle">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
+          <line>62</line>
+          <properties class="SortingAlgorithms.SelectionSort" method="selectionSortAlg">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/BubbleSort.java</url>
+          <line>23</line>
+          <properties class="SortingAlgorithms.BubbleSort" method="kkBubbleSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
+          <line>94</line>
+          <properties class="SortingAlgorithms.SelectionSort" method="leastValue">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="283" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

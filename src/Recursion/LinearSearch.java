@@ -5,8 +5,8 @@ public class LinearSearch {
     public static void main(String[] args) {
         int array[] = new int[]{1,4,2,70,44,22,3,67755,46,455};
         int target= 3;
-        linearSearch(array,0,target);
-        System.out.println("om Sai Ram");
+       // linearSearch(array,0,target);
+        System.out.println("Om Sai Ram");
         linearSearchReturn(array,0,target);
     }
 
@@ -28,7 +28,11 @@ public class LinearSearch {
             return false;
         }
 
-        boolean resultIndex = linearSearchReturn(array,++index,target) && target==array[index];
+        if (target == array[index]){
+            return true;
+        }
+
+        boolean resultIndex = linearSearchReturn(array,++index,target);
         System.out.println(target +" found at "+array[index]);
         return resultIndex;
     }
