@@ -4,9 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Recursion - Triangles, Bubble and Selection Sort">
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java" afterDir="false" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Recursion - Merge Sort">
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/UrlReturn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/CheckingAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/InvestmentAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Main_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/SavingsAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regex/CheckUrls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringAndHashMaps/FancyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringAndHashMaps/LargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/Ascii.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/CharRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/SubsetList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/removeWordFromStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/subSetArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/ArraySortedOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Builder/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarBuy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarLease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarRental.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarSale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarSaleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarSell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/Factory/Main_Client_Calls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/SortAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +46,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-19.0.2/Contents/Home/lib/src.zip!/java.base/java/lang/Math.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-19.0.2/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -33,25 +67,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.BubbleSort" />
+}</component>
+  <component name="RunManager" selected="Application.ArraySortedOrNot">
+    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbers.AddTwoNumbers" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="PATTERN" value="LinkedList.AddTwoNumbers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringAndHashMaps.GroupAnagrams" />
+    <configuration name="ArraySortedOrNot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.ArraySortedOrNot" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringAndHashMaps.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.MergeSort" />
+    <configuration name="Ascii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringRecursionSubSetSubSeq.Ascii" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="PATTERN" value="StringRecursionSubSetSubSeq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingAlgorithms.SelectionSort" />
+    <configuration name="CheckUrls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex.CheckUrls" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SortingAlgorithms.*" />
+          <option name="PATTERN" value="Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpwardsTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.UpwardsTriangle" />
+    <configuration name="subSetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringRecursionSubSetSubSeq.subSetArray" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="StringRecursionSubSetSubSeq.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.UpwardsTriangle" />
+        <item itemvalue="Application.ArraySortedOrNot" />
+        <item itemvalue="Application.CheckUrls" />
+        <item itemvalue="Application.subSetArray" />
+        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.Ascii" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +257,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687317919546</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Recursion - Merge Sort">
+      <created>1687336262571</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687336262571</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Recursion - Merge Sort">
+      <created>1687336272327</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687336272327</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Recursion - Merge Sort">
+      <created>1687336279208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687336279208</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +300,8 @@
     <MESSAGE value="graphs bfs" />
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion - Triangles, Bubble and Selection Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion - Triangles, Bubble and Selection Sort" />
+    <MESSAGE value="Recursion - Merge Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion - Merge Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -662,6 +720,31 @@
           <line>87</line>
           <option name="timeStamp" value="273" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/removeWordFromStream.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/subSetArray.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/subSetArray.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Regex/CheckUrls.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Regex/CheckUrls.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
           <line>1</line>
@@ -916,7 +999,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
-          <line>62</line>
+          <line>60</line>
           <properties class="SortingAlgorithms.SelectionSort" method="selectionSortAlg">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -934,15 +1017,137 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/SortingAlgorithms/SelectionSort.java</url>
-          <line>94</line>
+          <line>92</line>
           <properties class="SortingAlgorithms.SelectionSort" method="leastValue">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="283" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java</url>
+          <line>68</line>
+          <properties class="SortingAlgorithms.MergeSort" method="mergeSortAlgInplace">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java</url>
+          <line>80</line>
+          <properties class="SortingAlgorithms.MergeSort" method="mergeInplace">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/LargestNumber.java</url>
+          <line>76</line>
+          <properties class="StringAndHashMaps.LargestNumber" method="selectionSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DesignPatterns/Builder/Main.java</url>
+          <line>6</line>
+          <properties class="DesignPatterns.Builder.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/SortingAlgorithms/QuickSort.java</url>
+          <line>15</line>
+          <properties class="SortingAlgorithms.QuickSort" method="quickSortAlg">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/SortAlgorithms.java</url>
+          <line>132</line>
+          <properties class="Test.SortAlgorithms" method="KKSelectionSA">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/LargestNumber.java</url>
+          <line>8</line>
+          <properties class="StringAndHashMaps.LargestNumber" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringAndHashMaps/FancyWord.java</url>
+          <line>12</line>
+          <properties class="StringAndHashMaps.FancyWord" method="fancyWordAlg">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/removeWordFromStream.java</url>
+          <line>25</line>
+          <properties class="StringRecursionSubSetSubSeq.removeWordFromStream" method="removeWord2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/SubsetList.java</url>
+          <line>43</line>
+          <properties class="StringRecursionSubSetSubSeq.SubsetList" method="subsetArrayListRetKK">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/Ascii.java</url>
+          <line>6</line>
+          <properties class="StringRecursionSubSetSubSeq.Ascii" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/subSetArray.java</url>
+          <line>47</line>
+          <properties class="StringRecursionSubSetSubSeq.subSetArray" method="subsetDuplicate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/ArraySortedOrNot.java</url>
+          <line>10</line>
+          <properties class="Test.ArraySortedOrNot" method="isSorted">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/removeWordFromStream.java" line="30">
+        <watch expression="s" />
+      </inline-watch>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -951,6 +1156,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TheDailyByte$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1678945339817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TheDailyByte$subSetArray.ic" NAME="subSetArray Coverage Results" MODIFIED="1687835505069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>StringRecursionSubSetSubSeq.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TheDailyByte$MergeLinkedList.ic" NAME="MergeLinkedList Coverage Results" MODIFIED="1678410864510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LinkedList.MergeLinkedList.*</FILTER>
