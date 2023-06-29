@@ -81,7 +81,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArraySortedOrNot">
+  <component name="RunManager" selected="Application.LinearSearch">
     <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.AddTwoNumbers.AddTwoNumbers" />
       <module name="TheDailyByte" />
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ascii" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringRecursionSubSetSubSeq.Ascii" />
+    <configuration name="CheckUrls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regex.CheckUrls" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringRecursionSubSetSubSeq.*" />
+          <option name="PATTERN" value="Regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckUrls" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Regex.CheckUrls" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.LinearSearch" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Regex.*" />
+          <option name="PATTERN" value="Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.ArraySortedOrNot" />
         <item itemvalue="Application.CheckUrls" />
         <item itemvalue="Application.subSetArray" />
         <item itemvalue="Application.AddTwoNumbers" />
-        <item itemvalue="Application.Ascii" />
       </list>
     </recent_temporary>
   </component>
