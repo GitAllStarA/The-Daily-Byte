@@ -4,38 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Recursion - Merge Sort">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Builder/UrlReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/InvestmentAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/Main_Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Factory/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Regex/CheckUrls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingAlgorithms/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringAndHashMaps/FancyWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringAndHashMaps/LargestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/Ascii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/CharRemove.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/SubsetList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/removeWordFromStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringRecursionSubSetSubSeq/subSetArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/ArraySortedOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Builder/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarBuy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarLease.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarRental.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarSale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarSaleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Factory/CarSell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/Factory/Main_Client_Calls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/SortAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Recursion - String patterns">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortingAlgorithms/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/LinearSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,7 +249,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687336279208</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Recursion - String patterns">
+      <created>1688020472804</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1688020472804</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Recursion - String patterns">
+      <created>1688020485203</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1688020485203</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Recursion - String patterns">
+      <created>1688020642092</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1688020642092</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +293,8 @@
     <MESSAGE value="Recursion" />
     <MESSAGE value="Recursion - Triangles, Bubble and Selection Sort" />
     <MESSAGE value="Recursion - Merge Sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recursion - Merge Sort" />
+    <MESSAGE value="Recursion - String patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursion - String patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1141,6 +1134,15 @@
           </properties>
           <option name="timeStamp" value="322" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Test/LinearSearch.java</url>
+          <line>25</line>
+          <properties class="Test.LinearSearch" method="linearSearchMultipleOccurance">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1159,6 +1161,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/TheDailyByte$subSetArray.ic" NAME="subSetArray Coverage Results" MODIFIED="1687835505069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>StringRecursionSubSetSubSeq.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TheDailyByte$LinearSearch.ic" NAME="LinearSearch Coverage Results" MODIFIED="1688021692455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TheDailyByte$MergeLinkedList.ic" NAME="MergeLinkedList Coverage Results" MODIFIED="1678410864510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>LinkedList.MergeLinkedList.*</FILTER>
