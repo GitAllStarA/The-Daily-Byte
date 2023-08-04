@@ -7,6 +7,7 @@ public class MinimumEditDistance {
         String s = "beach";
         String t = "batch";
         System.out.println(editDistance(s, t));
+        System.out.println(s.substring(0,5));
     }
 
     static int editDistance(String s, String t) {
