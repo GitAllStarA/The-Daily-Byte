@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="BackTracking and Dynamic Programming">
-      <change afterPath="$PROJECT_DIR$/src/Backtracking/DictionaryWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/PaintingHouses.java" afterDir="false" />
+    <list default="true" id="2e8cb1eb-d331-458e-bc77-5d3f5d49fa8d" name="Changes" comment="Dynamic Programming">
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/ClimbStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/CountingSums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/Knapsack_ThiefsMaxLoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/MinimumPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DynamicProgramming/ProductOfElementItself.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicProgramming/MinimumEditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicProgramming/MinimumEditDistance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +56,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PaintingHouses">
-    <configuration name="DictionaryWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.DictionaryWords" />
-      <module name="TheDailyByte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestIncreasingSubSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.LongestIncreasingSubSequence" />
+  <component name="RunManager" selected="Application.CountingSums">
+    <configuration name="ClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.ClimbStairs" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumEditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MinimumEditDistance" />
+    <configuration name="CountingSums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.CountingSums" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaintingHouses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.PaintingHouses" />
+    <configuration name="Knapsack_ThiefsMaxLoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.Knapsack_ThiefsMaxLoot" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +96,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSearchTwoDArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Backtracking.WordSearchTwoDArray" />
+    <configuration name="MinimumPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.MinimumPath" />
       <module name="TheDailyByte" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Backtracking.*" />
+          <option name="PATTERN" value="DynamicProgramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductOfElementItself" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DynamicProgramming.ProductOfElementItself" />
+      <module name="TheDailyByte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DynamicProgramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PaintingHouses" />
-        <item itemvalue="Application.LongestIncreasingSubSequence" />
-        <item itemvalue="Application.DictionaryWords" />
-        <item itemvalue="Application.MinimumEditDistance" />
-        <item itemvalue="Application.WordSearchTwoDArray" />
+        <item itemvalue="Application.CountingSums" />
+        <item itemvalue="Application.ProductOfElementItself" />
+        <item itemvalue="Application.MinimumPath" />
+        <item itemvalue="Application.Knapsack_ThiefsMaxLoot" />
+        <item itemvalue="Application.ClimbStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +295,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690541786978</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Dynamic Programming">
+      <created>1691182002500</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1691182002500</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Dynamic Programming">
+      <created>1691182008754</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1691182008754</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,7 +335,8 @@
     <MESSAGE value="Recursion - String patterns" />
     <MESSAGE value="push from CA" />
     <MESSAGE value="BackTracking and Dynamic Programming" />
-    <option name="LAST_COMMIT_MESSAGE" value="BackTracking and Dynamic Programming" />
+    <MESSAGE value="Dynamic Programming" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Programming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -803,6 +819,11 @@
           <url>file://$PROJECT_DIR$/src/DynamicProgramming/LongestIncreasingSubSequence.java</url>
           <line>17</line>
           <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/MinimumPath.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="375" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StringAndHashMaps/CorrectCapitalization.java</url>
@@ -1353,14 +1374,35 @@
           </properties>
           <option name="timeStamp" value="367" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/ClimbStairs.java</url>
+          <line>15</line>
+          <properties class="DynamicProgramming.ClimbStairs" method="totalWaysOfClimbingStairs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/MinimumPath.java</url>
+          <line>57</line>
+          <properties class="DynamicProgramming.MinimumPath" method="traversalFunction">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DynamicProgramming/CountingSums.java</url>
+          <line>57</line>
+          <properties class="DynamicProgramming.CountingSums" method="returnTargetNoOfSubArrays">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="s" />
-        <watch expression="stringBooleanHashMap" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
