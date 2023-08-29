@@ -1,7 +1,9 @@
+package RoughWork;
+
 import java.util.HashMap;
 import java.util.Map;
 
-public class xfhg {
+public class X {
     public static void main(String[] args) {
         int[] array = { 2, 5, 2, 8, 3, 5, 2, 6, 4, 8 };
 
