@@ -25,7 +25,7 @@ public class LL3 {
 
     int size;
 
-    LL3(){
+    public LL3(){
         size=0;
     }
 

@@ -20,6 +20,12 @@ import java.util.List;
 public class LL4 {
 
 
+    public static void main(String[] args) {
+        LL4  l = new LL4();
+        l.insertAtFirst(10);
+        l.insertAtFirst(20);
+        l.display();
+    }
     ListNode head;
     ListNode tail;
 
