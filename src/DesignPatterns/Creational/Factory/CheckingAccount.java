@@ -1,4 +1,4 @@
-package DesignPatterns.Factory;
+package DesignPatterns.Creational.Factory;
 
 public class CheckingAccount implements BankAccount {
 

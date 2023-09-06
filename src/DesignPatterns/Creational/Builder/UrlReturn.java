@@ -1,4 +1,4 @@
-package DesignPatterns.Builder;
+package DesignPatterns.Creational.Builder;
 
 public class UrlReturn {
     private String protocol;

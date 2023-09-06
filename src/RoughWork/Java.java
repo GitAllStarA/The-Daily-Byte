@@ -73,7 +73,7 @@ public class Java {
         Consumer<String> consumer = (t) -> System.out.println(t);
         consumer.accept("this is java");
 
-        //BiConsumer - void accept(T t, Vehicles.V v) - it takes one argument and retuen nothting
+        //BiConsumer - void accept(T t, Vehicles.V v) - it takes two argument and retuen nothting
         BiConsumer<String, String> biConsumer = (t, r) -> System.out.println(t + " is " + r);
         biConsumer.accept("Vikranth", "Software Developer and Software Engineer");
 
