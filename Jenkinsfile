@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t my-app-dailyByte:latest .'
+                sh 'docker build -t my-app-daily:latest .'
             }
         }
         stage('Deploy to Kubernetes') {
